@@ -18,12 +18,21 @@ yang berfungsi untuk mengubah alamat IP sumber (source address) dari paket data 
 *3. src-nat*    
    Mengganti alamat sumber/port paket ke nilai yang ditentukan (to-addresses, to-ports). Biasanya untuk menerjemahkan IP privat ke IP publik tertentu (static srcnat).    
 *4. dst-nat*     
+   
 *5. accept*   
+
 *6. redirect*    
+
 *7. jump*     
+
 *8. return*     
+
 *9. passthrough*      
+
 *10. add dst to address list*     
+
 *11. add src to address list*    
+
 *12. log*     
+
 *13. netmap*      
