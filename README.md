@@ -16,8 +16,7 @@ yang berfungsi untuk mengubah alamat IP sumber (source address) dari paket data 
 *2. same*    
    Mengubah IP sumber (source IP) seperti src-nat, tapi dengan upaya menjaga konsistensi pemetaan antara IP privat dan IP publik. Menjaga agar IP privat tertentu selalu diterjemahkan ke IP publik yang sama (jika ada lebih dari satu IP publik/ ip yang berubah ubah). serta Mencegah perubahan IP NAT (mapping) secara acak.      
 *3. src-nat*    
-
-
+   Mengganti alamat sumber/port paket ke nilai yang ditentukan (to-addresses, to-ports). Biasanya untuk menerjemahkan IP privat ke IP publik tertentu (static srcnat).    
 *4. dst-nat*     
 *5. accept*   
 *6. redirect*    
