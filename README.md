@@ -17,23 +17,35 @@ yang berfungsi untuk mengubah alamat IP sumber (source address) dari paket data 
    Mengubah IP sumber (source IP) seperti src-nat, tapi dengan upaya menjaga konsistensi pemetaan antara IP privat dan IP publik. Menjaga agar IP privat tertentu selalu diterjemahkan ke IP publik yang sama (jika ada lebih dari satu IP publik/ ip yang berubah ubah). serta Mencegah perubahan IP NAT (mapping) secara acak.      
 *3. src-nat*    
    Mengganti alamat sumber/port paket ke nilai yang ditentukan (to-addresses, to-ports). Biasanya untuk menerjemahkan IP privat ke IP publik tertentu (static srcnat).    
-*4. dst-nat*     
-   untuk mengubah alamat tujuan (destination address) dari paket data yang masuk. 
-*5. accept*   
-   untuk mengizinkan paket data yang cocok dengan rule tersebut untuk diteruskan tanpa diblokir atau dimodifikasi.
-*6. redirect*    
-   digunakan untuk mengalihkan (redirect) koneksi ke port tertentu di router itu sendiri, bukan ke perangkat lain di jaringan.
-*7. jump*     
-   Digunakan untuk "melompat" ke chain (rantai) lain untuk melanjutkan pemrosesan aturan.
-*8. return*     
-   Digunakan untuk kembali ke chain asal setelah selesai memproses di custom chain.
-*9. passthrough*      
-   Membiarkan paket lolos ke rule selanjutnya di chain yang sama. tanpa memblokir atau mengubahnya.
-*10. add dst to address list*     
-    ambahkan IP tujuan (destination) ke address list
-*11. add src to address list*    
-    Tambahkan IP sumber (source) ke address list
-*12. log*     
-    Mencatat paket yang cocok dengan rule ke log system Mikrotik.
-*13. netmap*      
-     NAT 1:1 (Static NAT), cocok untuk mapping banyak IP publik ke lokal
+*4. dst-nat*          
+   untuk mengubah alamat tujuan (destination address) dari paket data yang masuk.     
+*5. accept*        
+   untuk mengizinkan paket data yang cocok dengan rule tersebut untuk diteruskan tanpa diblokir atau dimodifikasi.      
+*6. redirect*         
+   digunakan untuk mengalihkan (redirect) koneksi ke port tertentu di router itu sendiri, bukan ke perangkat lain di jaringan.     
+*7. jump*          
+   Digunakan untuk "melompat" ke chain (rantai) lain untuk melanjutkan pemrosesan aturan.    
+*8. return*          
+   Digunakan untuk kembali ke chain asal setelah selesai memproses di custom chain.    
+*9. passthrough*           
+   Membiarkan paket lolos ke rule selanjutnya di chain yang sama. tanpa memblokir atau mengubahnya.    
+*10. add dst to address list*        
+    ambahkan IP tujuan (destination) ke address list    
+*11. add src to address list*         
+    Tambahkan IP sumber (source) ke address list    
+*12. log*        
+    Mencatat paket yang cocok dengan rule ke log system Mikrotik.    
+*13. netmap*           
+     NAT 1:1 (Static NAT), cocok untuk mapping banyak IP publik ke lokal    
+
+# konfigurasi firewall nat 
+1. masquerade
+   di sini saya akan meggunakan action masquerade untuk melakukan konfigurasi kenpa saya memilih action ini karena saya akan Mengubah IP sumber (source IP) dari jaringan lokal menjadi IP publik router secara otomatis, agar perangkat di jaringan lokal bisa mengakses internet.
+   pilih menu ip > firewall > nat 
+
+![](221a.PNG)
+
+![](221b.PNG)
+
+![](221c.PNG)
+ *bisa dilihat sekarang kita sudah bisa terhubung ke internet*
