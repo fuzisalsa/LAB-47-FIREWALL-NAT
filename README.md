@@ -93,4 +93,4 @@ nah dengan kita mencoba mengakses http akan muncul alamat tujuan di address list
 
 ![](88a.PNG)
 
-*bisa dilihat saat saya mencoba login mikrotik di (webfig)=http akan tercatat dan masuk ke log system mikrotik*
+*bisa dilihat saat saya mencoba login mikrotik di (webfig)=http akan tercatat dan masuk ke log system mikrotik. untuk melihat nya pilih menu log*
