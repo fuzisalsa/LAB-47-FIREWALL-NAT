@@ -48,4 +48,5 @@ yang berfungsi untuk mengubah alamat IP sumber (source address) dari paket data 
 ![](221b.PNG)
 
 ![](221c.PNG)
- *bisa dilihat sekarang kita sudah bisa terhubung ke internet*
+
+*bisa dilihat sekarang kita sudah bisa terhubung ke internet*
