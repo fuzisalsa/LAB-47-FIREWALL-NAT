@@ -84,4 +84,13 @@ saya juga sudah membrikan nama di bagian addres list agar bisa terlihat dan tida
 
 nah dengan kita mencoba mengakses http akan muncul alamat tujuan di address list 
 
+**12. log**
+    di sini saya akan melakukan konfigurasi log Mencatat paket yang cocok dengan rule ke log system Mikrotik.
 
+![](88b.PNG)
+
+![](88c.PNG)
+
+![](88a.PNG)
+
+*bisa dilihat saat saya mencoba login mikrotik di (webfig)=http akan tercatat dan masuk ke log system mikrotik*
