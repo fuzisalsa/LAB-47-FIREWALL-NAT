@@ -54,7 +54,7 @@ yang berfungsi untuk mengubah alamat IP sumber (source address) dari paket data 
 **2. same**
     di sini saya akan 
 
-**6. redirect** 
+**6. redirect**      
    disini saya akan mengalihkan konekis port 80 (http) ke 8080 (web proxy) 
 
 ![](221d.PNG)
