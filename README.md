@@ -70,3 +70,18 @@ bisa di lihat http tida bisa diakses langsung karena kita sudah memindahkan nya 
 ![](221h.PNG)
 
 *dan tadaa sekarang http bisa di akses*
+
+**10. add dst to address list**
+      saya akan menambah kan alamat/ip tujuan  ke addres list 
+
+![](112x.PNG)
+
+![](112y.PNG)
+
+saya juga sudah membrikan nama di bagian addres list agar bisa terlihat dan tidak bercampur dengan yang lain  
+
+![](112z.PNG)
+
+nah dengan kita mencoba mengakses http akan muncul alamat tujuan di address list 
+
+
