@@ -71,7 +71,7 @@ bisa di lihat http tida bisa diakses langsung karena kita sudah memindahkan nya 
 
 *dan tadaa sekarang http bisa di akses*
 
-**10. add dst to address list**
+**10. add dst to address list**    
       saya akan menambah kan alamat/ip tujuan  ke addres list 
 
 ![](112x.PNG)
