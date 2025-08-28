@@ -67,6 +67,6 @@ bisa di lihat http tida bisa diakses langsung karena kita sudah memindahkan nya 
 
 ![](211g.PNG)
 
-![](211h.PNG)
+![](221h.PNG)
 
 *dan tadaa sekarang http bisa di akses*
