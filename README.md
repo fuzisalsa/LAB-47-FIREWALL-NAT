@@ -39,7 +39,7 @@ yang berfungsi untuk mengubah alamat IP sumber (source address) dari paket data 
      NAT 1:1 (Static NAT), cocok untuk mapping banyak IP publik ke lokal    
 
 # konfigurasi firewall nat 
-1. masquerade      
+**1. masquerade**      
    di sini saya akan meggunakan action masquerade untuk melakukan konfigurasi kenpa saya memilih action ini karena saya akan Mengubah IP sumber (source IP) dari jaringan lokal menjadi IP publik router secara otomatis, agar perangkat di jaringan lokal bisa mengakses internet.
    pilih menu ip > firewall > nat 
 
@@ -50,3 +50,23 @@ yang berfungsi untuk mengubah alamat IP sumber (source address) dari paket data 
 ![](221c.PNG)
 
 *bisa dilihat sekarang kita sudah bisa terhubung ke internet*
+
+**2. same**
+    di sini saya akan 
+
+**6. redirect** 
+   disini saya akan mengalihkan konekis port 80 (http) ke 8080 (web proxy) 
+
+![](221d.PNG)
+
+![](221e.PNG)
+
+![](221f.PNG)
+
+bisa di lihat http tida bisa diakses langsung karena kita sudah memindahkan nya ke port 8080 (web proxy) maka dari itu kita aktifkan dulu web proxy di menu ip > web proxy > centang yang enabled.
+
+![](211g.PNG)
+
+![](211h.PNG)
+
+*dan tadaa sekarang http bisa di akses*
