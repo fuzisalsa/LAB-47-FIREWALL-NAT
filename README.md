@@ -84,7 +84,7 @@ saya juga sudah membrikan nama di bagian addres list agar bisa terlihat dan tida
 
 nah dengan kita mencoba mengakses http akan muncul alamat tujuan di address list 
 
-**11. add src to address list**
+**11. add src to address list**     
       src adalah kebalikan dari dst klo dst itu alamat tujuan klo src itu alamat dia sendiri yang di masukkan ke addrress list
 
 ![](99a.PNG)
