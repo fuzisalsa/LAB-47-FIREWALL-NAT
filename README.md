@@ -84,6 +84,15 @@ saya juga sudah membrikan nama di bagian addres list agar bisa terlihat dan tida
 
 nah dengan kita mencoba mengakses http akan muncul alamat tujuan di address list 
 
+**11. add src to address list**
+      src adalah kebalikan dari dst klo dst itu alamat tujuan klo src itu alamat dia sendiri yang di masukkan ke addrress list
+
+![](99a.PNG)
+
+![](99b.PNG)
+
+![](99c.PNG)
+
 **12. log**       
     di sini saya akan melakukan konfigurasi log Mencatat paket yang cocok dengan rule ke log system Mikrotik.
 
@@ -95,4 +104,4 @@ nah dengan kita mencoba mengakses http akan muncul alamat tujuan di address list
 
 *bisa dilihat saat saya mencoba login mikrotik di (webfig)=http akan tercatat dan masuk ke log system mikrotik. untuk melihat nya pilih menu log*
 
-**
+****
